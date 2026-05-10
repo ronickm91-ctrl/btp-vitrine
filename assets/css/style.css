@@ -1,0 +1,47 @@
+body {
+  scroll-behavior: smooth;
+}
+
+/* HERO */
+
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070&auto=format&fit=crop')
+    center/cover no-repeat;
+}
+
+/* CARDS */
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* ANIMATION */
+
+.fade-in {
+  animation: fade 1.5s ease;
+}
+
+@keyframes fade {
+
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NovaBâtiment</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="bg-white shadow-md fixed w-full z-50">
+    <nav class="container mx-auto flex justify-between items-center p-5">
+
+      <h1 class="text-3xl font-bold text-orange-500">
+        NovaBâtiment
+      </h1>
+
+      <ul class="hidden md:flex gap-8 font-semibold">
+        <li><a href="index.html" class="hover:text-orange-500">Accueil</a></li>
+        <li><a href="prestations.html" class="hover:text-orange-500">Prestations</a></li>
+        <li><a href="projets.html" class="hover:text-orange-500">Projets</a></li>
+        <li><a href="apropos.html" class="hover:text-orange-500">À propos</a></li>
+        <li><a href="contact.html" class="hover:text-orange-500">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero h-screen flex items-center justify-center text-white">
+
+    <div class="text-center px-6">
+
+      <h2 class="text-5xl md:text-7xl font-bold mb-6 fade-in">
+        Construisons le futur
+      </h2>
+
+      <p class="text-xl max-w-2xl mx-auto mb-8 fade-in">
+        Entreprise experte en construction, rénovation et génie civil partout en France.
+      </p>
+
+      <a href="contact.html"
+        class="bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-xl text-lg font-bold">
+        Demander un devis
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="py-24 container mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <h3 class="text-4xl font-bold mb-4">
+        Nos Services
+      </h3>
+
+      <p class="text-gray-600">
+        Des solutions complètes pour tous vos projets.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-10">
+
+      <div class="card">
+        <h4 class="text-2xl font-bold mb-4">Construction</h4>
+        <p>
+          Bâtiments résidentiels et industriels de haute qualité.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4 class="text-2xl font-bold mb-4">Rénovation</h4>
+        <p>
+          Modernisation complète de bâtiments anciens.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4 class="text-2xl font-bold mb-4">Génie Civil</h4>
+        <p>
+          Travaux publics, ouvrages et infrastructures complexes.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="bg-gray-900 text-white py-20">
+
+    <div class="container mx-auto grid md:grid-cols-4 text-center gap-10">
+
+      <div>
+        <h3 class="text-5xl font-bold text-orange-500 counter" data-target="250">0</h3>
+        <p>Projets réalisés</p>
+      </div>
+
+      <div>
+        <h3 class="text-5xl font-bold text-orange-500 counter" data-target="120">0</h3>
+        <p>Employés</p>
+      </div>
+
+      <div>
+        <h3 class="text-5xl font-bold text-orange-500 counter" data-target="15">0</h3>
+        <p>Années d'expérience</p>
+      </div>
+
+      <div>
+        <h3 class="text-5xl font-bold text-orange-500 counter" data-target="98">0</h3>
+        <p>% Satisfaction</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white py-10 text-center">
+    <p>© 2026 NovaBâtiment - Tous droits réservés.</p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
